@@ -1,6 +1,7 @@
+\iffalse
 \begin{table}  
 \centering
-  \caption{\todo{Acronym} budget (P-Y stands for person-year)}
+  \caption{ATMOSCOPE budget (P-Y stands for person-year)}
   \label{tab:budget}
 \renewcommand\STprintnum[1]{\numprint{#1}}
 \newcommand{\0}{\phantom{0}}
@@ -53,4 +54,38 @@
 @\totals3{Requested EU contribution:}&[0,-1]\\
 \bottomrule
 \end{spreadtab}
+\end{table}
+\fi
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+{\renewcommand{\arraystretch}{1.65}
+\begin{tabular}{|lll|>{\raggedleft\arraybackslash}p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+\hline
+\multicolumn{3}{|l|}{Cost category}                                                                  & \centering \textbf{cPI} & \centering \textbf{2\textsuperscript{nd} PI} & \centering \textbf{3\textsuperscript{rd} PI} & \centering \textbf{4\textsuperscript{th} PI} & \textbf{\ \ \ Total /\texteuro} \\ \hline
+\multicolumn{3}{|l|}{PI name}                                                                        & \centering Heerwaarden & \centering Nuijens & \centering Pincus & \centering Couvreux &  \\ \hline
+\multicolumn{3}{|l|}{Host institution}                                                               & \centering WUR & \centering TUD  & \centering Columbia U. &  \centering Meteo Fr. &  \\ \hline
+\multicolumn{1}{|l|}{\multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{A. Direct personnel costs/\texteuro}}}} & \multicolumn{2}{l|}{PI}                                      & 282,333 &  &  &  &  \\ \cline{2-8} 
+\multicolumn{1}{|l|}{}    & \multicolumn{2}{l|}{Senior staff}                                  &  &  &  &  &  \\ \cline{2-8} 
+\multicolumn{1}{|l|}{}    & \multicolumn{2}{l|}{Postdocs}                                      &  &  &  &  &  \\ \cline{2-8} 
+\multicolumn{1}{|l|}{}    & \multicolumn{2}{l|}{Students}                                      &  &  &  &  &  \\ \cline{2-8} 
+\multicolumn{1}{|l|}{}    & \multicolumn{2}{l|}{Other personnel costs}                         &  &  &  &  &  \\ \cline{2-8} 
+\multicolumn{1}{|l|}{}    & \multicolumn{2}{l|}{\textbf{Total personnel costs/\texteuro}}      &  &  &  &  &  \\ \hline
+
+\multicolumn{3}{|p{5cm}|}{B. Subcontracting costs/\texteuro \newline (no indirect costs)}                    &  &  &  &  &  \\ \hline
+
+\multicolumn{1}{|l|}{\multirow{7}{*}[-8em]{\rotatebox[origin=c]{90}{\textbf{C. Purchase costs/\texteuro}}}} & \multicolumn{2}{p{2.5cm}|}{C.1 Travel and subsistence}  &  &  &  &  &  \\ \cline{2-8} 
+\multicolumn{1}{|l|}{}                  & \multicolumn{2}{p{2.5cm}|}{C.2 Equipment - including major equipment} &  &  &  &  &  \\ \cline{2-8} 
+\multicolumn{1}{|l|}{}                  & \multicolumn{1}{l|}{\multirow{4}{1.1cm}[-5em]{C.3 Other goods, works and services}} & \multicolumn{1}{p{2.5cm}|}{Consumables incl fieldwork and animal costs} &  &  &  &  &  \\ \cline{3-8} 
+\multicolumn{1}{|l|}{}                  & \multicolumn{1}{l|}{}                  & \multicolumn{1}{p{2.5cm}|}{Publications (incl. open access fees) and dissemination}                        &  &  &  &  &  \\ \cline{3-8} 
+\multicolumn{1}{|l|}{}                  & \multicolumn{1}{l|}{}                  & \multicolumn{1}{p{2.5cm}|}{Other additional direct costs}                                                  &  &  &  &  &  \\ \cline{3-8} 
+\multicolumn{1}{|l|}{}                  & \multicolumn{1}{l|}{}                  & \multicolumn{1}{p{2.5cm}|}{Total other goods, works and services}                                          &  &  &  &  &  \\ \cline{2-8} 
+\multicolumn{1}{|l|}{}                  & \multicolumn{2}{p{4cm}|}{\textbf{Total purchase costs/\texteuro} (C.1 + C.2 + C.3)}  &  &  &  &  &  \\ \hline
+\multicolumn{3}{|p{5cm}|}{D. Internally invoiced goods and services/\texteuro \newline (No indirect costs)}                 &  &  &  &  &  \\ \hline
+\multicolumn{3}{|p{5cm}|}{E. Indirect costs/\texteuro \newline (25\% * (A + C.1 + C.2 + C.3)}                               &  &  &  &  &  \\ \hline
+\multicolumn{3}{|p{5cm}|}{Total eligible costs/\texteuro}                                                           &  &  &  &  &  \\ \hline
+\multicolumn{3}{|p{5cm}|}{Requested EU contribution/\texteuro}                                                      & 3,226,890 &  &  &  &  \\ \hline
+\end{tabular}}
 \end{table}

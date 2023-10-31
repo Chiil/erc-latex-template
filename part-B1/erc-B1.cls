@@ -14,15 +14,26 @@ Part B2 is evaluated in Step 2 only)}\par
 \vspace{.5cm}\@title\par
 \vspace{.7cm}\@acronym\par
 \normalfont\normalsize\raggedright\vspace{2cm}\begin{compactitem}
-\item \textbf{Principal investigator (PI):} \@author
+\item \textbf{Corresponding Principal Investigator (cPI):} \@author
 \item \textbf{Host institution:} \@institution
-\item \textbf{Proposal duration:} 60 months%
+\item \textbf{Principal Investigator (PI):} Louise Nuijens
+\item \textbf{Host institution:} Delft University of Technology, The Netherlands
+\item \textbf{Principal Investigator (PI):} Robert Pincus
+\item \textbf{Host institution:} Columbia University in the City of New York, USA
+\item \textbf{Principal Investigator (PI):} Fleur Couvreux
+\item \textbf{Host institution:} Centre National de Recherches Météorologiques, Meteo France, Toulouse, France
+\item \textbf{Proposal duration:} 72 months%
 \end{compactitem}
+
+
+
 \par\vspace{1.2em}}}
 
+
+
 \newcommand{\secsynopsis}{\pagebreak\section{Extended synopsis}}
-\newcommand{\seccv}{\pagebreak\section{Curriculum vitae}}
-\newcommand{\sectrack}{\pagebreak\section{Early achievements track-record}}
+\newcommand{\seccv}{\pagebreak\section{Curriculum vitae and track record (max. 4 pages per each Principal Investigator)}}
+%\newcommand{\sectrack}{\pagebreak\section{Research achievement and peer recognition}}
 
 \newcommand{\headfundingid}{{\centering\bfseries\itshape Appendix: All
 ongoing and submitted grants and funding of the PI (Funding
